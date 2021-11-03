@@ -20,7 +20,7 @@ ProductTag.init(
             references: tag.model(id),
             }
           }
-        }),// define columns
+        }),
   {
     sequelize,
     timestamps: false,
